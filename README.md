@@ -26,7 +26,12 @@ Update a comment on a song| PATCH | /songs/:id/comments/:id | Comment text | non
         postData,  
         tag: [ String ]  
         albumCover, (url)  
-        comments: [  
-            {username, avatar, comment}
-        ]
+        comments: [ Comment ]
+    }
+
+    Comment object template: 
+    {
+        username,
+        avatar,
+        comment
     }
