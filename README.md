@@ -23,7 +23,7 @@ Update a comment on a song| PATCH | /songs/:id/comments/:id | Comment text | non
         artistName,  
         songTitle,  
         mediaFile, (url)  
-        postData,  
+        postDate,  
         tag: [ String ]  
         albumCover, (url)  
         comments: [ Comment ]
