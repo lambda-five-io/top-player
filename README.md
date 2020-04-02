@@ -8,27 +8,7 @@ Start Seed Script: 'npm run seedmongo'
 
 # API Routes:
   
-  
+
 | Intention | Type | Endpoint | Request | Response |  
-|---|---|---|---|---|---|  
+|---|---|---|---|---|
 | Get song data | GET | /songs/:id | none | songData object |  
-
-
-
-        SongData object template:
-    {
-        artistName,  
-        songTitle,  
-        mediaFile, (url)  
-        postDate,  
-        tag: [ String ]  
-        albumCover, (url)  
-        comments: [ Comment ]
-    }
-
-    Comment object template: 
-    {
-        username,
-        avatar,
-        comment
-    }
